@@ -1,0 +1,45 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "WhatsTheIntentAbout",
+          "samples": [
+            "o que faz essa intent",
+            "essa intenção é de que",
+            "sobre o que fala essa intent",
+            "sobre o que fala essa intenção"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "InfoAboutCharacters",
+          "samples": [
+            "personagens",
+            "quais os personagens",
+            "me fala dos personagens"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "heróis"
+    }
+  }
+}
